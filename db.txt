@@ -1,0 +1,72 @@
+﻿% Club(id, name, city, stadium, coach)
+club(1, 'Zenit', saint_petersburg, "Gazprom Arena", "Sergey Semak").
+club(2, 'Spartak', moscow, "Otkritie Arena", "Domenico Tedesco").
+club(3, 'CSKA', moscow, "VEB Arena", "Viktor Goncharenko").
+club(4, 'Lokomotiv', moscow, "RZD Arena", "Marko Nikolic").
+club(5, 'Krasnodar', krasnodar, "Krasnodar Stadium", "Murad Musaev").
+club(6, 'Rostov', rostov_on_don, "Rostov Arena", "Valery Karpin").
+club(7, 'Sochi', sochi, "Fisht Olympic Stadium", "Vladimir Fedotov").
+club(8, 'Rubin', kazan, "Kazan Arena", "Leonid Slutsky").
+club(9, 'Dynamo', moscow, "VTB Arena", "Sandro Schwarz").
+club(10, 'Akhmat', grozny, "Akhmat Arena", "Andrey Talalaev").
+club(11, 'Ural', yekaterinburg, "Central Stadium", "Dmitry Parfenov").
+club(12, 'Arsenal', tula, "Arsenal Stadium", "Igor Cherevchenko").
+club(13, 'Ufa', ufa, "Neftyanik Stadium", "Rashid Rakhimov").
+club(14, 'Tambov', tambov, "Spartak Stadium", "Sergey Pervushin").
+club(15, 'Rotor', volgograd, "Volgograd Arena", "Aleksey Shpilevsky").
+club(16, 'Khimki', khimki, "Arena Khimki", "Igor Cherevchenko").
+
+% Facts about players: player(id, first name, last name, age, position, club)
+player(1, "Artem", "Dzyuba", 32, "Forward", 1).
+player(2, "Malcom", "Filipe Silva de Oliveira", 23, "Forward", 1).
+player(3, "Sardar", "Azmoun", 25, "Forward", 1).
+player(4, "Sebastian", "Driussi", 24, "Forward", 1).
+player(5, "Aleksandr", "Yerokhin", 30, "Midfielder", 1).
+player(6, "Magomed", "Ozdoev", 28, "Midfielder", 1).
+player(7, "Wendel", "Nascimento Borges", 23, "Midfielder", 1).
+player(8, "Wilmar", "Barrios", 27, "Midfielder", 1).
+player(9, "Daler", "Kuzyaev", 27, "Midfielder", 1).
+player(10, "Andrey", "Mostovoy", 23, "Midfielder", 1).
+player(11, "Dejan", "Lovren", 31, "Defender", 1).
+player(12, "Yaroslav", "Rakitskiy", 31, "Defender", 1).
+player(13, "Vyacheslav", "Karavaev", 25, "Defender", 1).
+player(14, "Douglas Santos", "", 26, "Defender", 1).
+player(15, "Danil Krugovoy","",22,"Defender" ,1).
+player(16,"Mikhail Kerzhakov","",34,"Goalkeeper" ,1).
+
+player(17,"Aleksandr Sobolev","",24,"Forward" ,2).
+player(18,"Jordan Larsson","",23,"Forward" ,2).
+player(19,"Ezequiel Ponce","",23,"Forward" ,2).
+player(20,"Victor Moses","",30,"Forward" ,2).
+player(21,"Alex Kral","",22,"Midfielder" ,2).
+player(22,"Roman Zobnin","",26,"Midfielder" ,2).
+player(23,"Nail Umyarov","",21,"Midfielder" ,2).
+player(24,"Ayaz Guliev","",24,"Midfielder" ,2).
+player(25,"Samuel Gigot","",26,"Defender" ,2).
+player(26,"Ayrton Lucas","",24,"Defender" ,2).
+player(27,"Pavel Maslov","",21,"Defender" ,2).
+player(28,"Andrey Eshchenko","",37,"Defender" ,2).
+player(29,"Aleksandr Maksimenko","",22,"Goalkeeper" ,2).
+
+player(30,"Fedor Chalov","",22,"Forward" ,3).
+player(31,"Salomon Rondon","",31,"Forward" ,3).
+player(32,"Adolfo Gaich","",22,"Forward" ,3).
+player(33,"Nikola Vlasic","",23,"Midfielder" ,3).
+player(34,"Konstantin Maradishvili","",20,"Midfielder" ,3).
+player(35,"Ivan Oblyakov","",23,"Midfielder" ,3).
+player(36,"Kristijan Bistrovic","",22,"Midfielder" ,3).
+player(37,"Mario Fernandes","",30,"Defender" ,3).
+player(38,"Igor Diveev","",21,"Defender" ,3).
+player(39,"Viktor Vasin","",32,"Defender" ,3).
+player(40,"Georgy Schennikov","",29,"Defender" ,3).
+player(41,"Igor Akinfeev","",34,"Goalkeeper" ,3).
+
+% Facts about matches: match(id of home team, id of away team, date, time, score)
+match(2 ,3 ,date (2020 ,8 ,30) ,time (19 ,0) ,"2:2").
+match(4 ,5 ,date (2020 ,8 ,30) ,time (16 ,30) ,"1:2").
+match(6 ,7 ,date (2020 ,8 ,30) ,time (14 ,0) ,"0:0").
+match(8 ,9 ,date (2020 ,8 ,29) ,time (19 ,0) ,"0:2").
+match(10 ,11 ,date (2020 ,8 ,29) ,time (16 ,30) ,"1:1").
+match(12 ,13 ,date (2020 ,8 ,29) ,time (14 ,0) ,"2:1").
+match(14 ,15 ,date (2020 ,8 ,28) ,time (19 ,0) ,"3:1").
+match(16 ,1 ,date (2020 ,8 ,28) ,time (16 ,30) ,"2:4").
